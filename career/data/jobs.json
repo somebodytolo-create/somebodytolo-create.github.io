@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "generatedAt": "2026-10-16T09:56:10+09:00",
   "collection": {
-    "state": "connection_pending",
+    "state": "scheduled_awaiting_first_run",
     "lastAttemptAt": null,
     "lastSuccessAt": null,
     "schedule": "매일 오전 8시 무렵 (한국시간)",
-    "note": "이전에 확인한 초기 후보 2건을 옮겼습니다. 홈페이지 연결 후 예약 작업의 첫 자료 반영을 확인해야 합니다. 후보는 지원자격 검증 완료를 뜻하지 않습니다."
+    "note": "사이트 배포와 매일 채용 확인 작업의 보드 반영 설정을 완료했습니다. 첫 예약 갱신은 아직 확인 전입니다. 현재 2건은 이전에 안내한 후보이며 지원자격 검증 완료를 뜻하지 않습니다."
   },
   "jobs": [
     {
