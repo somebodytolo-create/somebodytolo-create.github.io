@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-16T09:56:10+09:00",
+  "generatedAt": "2026-10-20T15:23:05+09:00",
   "collection": {
-    "state": "scheduled_awaiting_first_run",
-    "lastAttemptAt": null,
+    "state": "partial",
+    "lastAttemptAt": "2026-10-20T15:23:05+09:00",
     "lastSuccessAt": null,
-    "schedule": "매일 오전 8시 무렵 (한국시간)",
-    "note": "사이트 배포와 매일 채용 확인 작업의 보드 반영 설정을 완료했습니다. 첫 예약 갱신은 아직 확인 전입니다. 현재 2건은 이전에 안내한 후보이며 지원자격 검증 완료를 뜻하지 않습니다."
+    "schedule": "기존 자동 확인 중지 상태 · 재등록 전",
+    "note": "2026-10-20 공식 출처 접근 점검: 경북TP 채용목록 첫 페이지 확인, 나머지 4곳은 본문 조회 실패 또는 빈 응답입니다. 전체 신규 공고 유무와 모집조건 검증은 완료하지 못했습니다. 기존 후보 2건은 검증 전 상태로 보존했습니다. 자동 예약의 재등록 및 예약 실행 성공은 아직 확인 전입니다."
   },
   "jobs": [
     {
@@ -20,16 +20,37 @@
       "region": null,
       "postedOn": "2026-10-02",
       "opensOn": "2026-10-12",
-      "deadline": {"date": "2026-10-22", "time": null, "zone": "Asia/Seoul"},
+      "deadline": {
+        "date": "2026-10-22",
+        "time": null,
+        "zone": "Asia/Seoul"
+      },
       "sourceId": "gbtp",
       "sourceUrl": "https://gbtp.or.kr/user/boardDetail.do?bbsId=BBSMSTR_000000000042&nttNo=11723",
       "applyUrl": "https://gbtp.applyin.co.kr/",
       "sourceType": "공식 채용페이지",
       "verification": "review",
-      "requirements": ["정규직 모집단위와 해당 직무 확인", "실제 근무지 확인", "필수 학위·경력·전공·어학 요건 확인", "접수 마감시각 확인"],
-      "fitReasons": ["이전에 검토한 지역 기관의 공고입니다. 직무·근무지·고용형태 확인 후 분류합니다."],
-      "cautions": ["기관 소재지만으로 대구·경북 근무나 지원자격 충족을 단정하지 않습니다.", "공고 전체가 아니라 정규직 모집단위만 검토 대상입니다.", "이전에 안내한 공고이며 오늘 신규 공고라는 뜻이 아닙니다."],
-      "evidence": [{"field": "접수기간", "text": "2026년 제6차 직원채용 공고(원서접수 : 10/12-10/22)", "url": "https://gbtp.or.kr/user/boardDetail.do?bbsId=BBSMSTR_000000000042&nttNo=11723"}],
+      "requirements": [
+        "정규직 모집단위와 해당 직무 확인",
+        "실제 근무지 확인",
+        "필수 학위·경력·전공·어학 요건 확인",
+        "접수 마감시각 확인"
+      ],
+      "fitReasons": [
+        "이전에 검토한 지역 기관의 공고입니다. 직무·근무지·고용형태 확인 후 분류합니다."
+      ],
+      "cautions": [
+        "기관 소재지만으로 대구·경북 근무나 지원자격 충족을 단정하지 않습니다.",
+        "공고 전체가 아니라 정규직 모집단위만 검토 대상입니다.",
+        "이전에 안내한 공고이며 오늘 신규 공고라는 뜻이 아닙니다."
+      ],
+      "evidence": [
+        {
+          "field": "접수기간",
+          "text": "2026년 제6차 직원채용 공고(원서접수 : 10/12-10/22)",
+          "url": "https://gbtp.or.kr/user/boardDetail.do?bbsId=BBSMSTR_000000000042&nttNo=11723"
+        }
+      ],
       "firstSeenAt": "2026-10-16T09:00:00+09:00",
       "lastVerifiedAt": "2026-10-16",
       "verificationScope": "공고 제목·접수기간만 확인",
@@ -49,16 +70,36 @@
       "region": null,
       "postedOn": "2026-10-08",
       "opensOn": null,
-      "deadline": {"date": null, "time": null, "zone": "Asia/Seoul"},
+      "deadline": {
+        "date": null,
+        "time": null,
+        "zone": "Asia/Seoul"
+      },
       "sourceId": "ptp",
       "sourceUrl": "https://www.ptp.or.kr/",
       "applyUrl": null,
       "sourceType": "공식 홈페이지 채용정보",
       "verification": "review",
-      "requirements": ["정규직 여부 및 모집직무 확인", "실제 근무지 확인", "필수 지원자격 확인", "접수 마감일·시각 확인"],
-      "fitReasons": ["기업지원·지역산업 분야 채용 여부를 검토할 후보입니다. 지원 가능 판정은 아닙니다."],
-      "cautions": ["이전 제작 시 공식 홈페이지에서 게시 사실만 확인했습니다.", "마감일과 채용조건이 확인되기 전까지 접수 중으로 표시하지 않습니다."],
-      "evidence": [{"field": "게시 사실", "text": "10.08 2026 (재)포항테크노파크 2026년 제4차 직원 채용 공고", "url": "https://www.ptp.or.kr/"}],
+      "requirements": [
+        "정규직 여부 및 모집직무 확인",
+        "실제 근무지 확인",
+        "필수 지원자격 확인",
+        "접수 마감일·시각 확인"
+      ],
+      "fitReasons": [
+        "기업지원·지역산업 분야 채용 여부를 검토할 후보입니다. 지원 가능 판정은 아닙니다."
+      ],
+      "cautions": [
+        "이전 제작 시 공식 홈페이지에서 게시 사실만 확인했습니다.",
+        "마감일과 채용조건이 확인되기 전까지 접수 중으로 표시하지 않습니다."
+      ],
+      "evidence": [
+        {
+          "field": "게시 사실",
+          "text": "10.08 2026 (재)포항테크노파크 2026년 제4차 직원 채용 공고",
+          "url": "https://www.ptp.or.kr/"
+        }
+      ],
       "firstSeenAt": "2026-10-16T09:00:00+09:00",
       "lastVerifiedAt": "2026-10-16",
       "verificationScope": "공고 제목·게시일만 확인",
@@ -69,10 +110,50 @@
     }
   ],
   "sources": [
-    {"id": "gbtp", "name": "경북테크노파크", "url": "https://www.gbtp.or.kr/user/board.do?bbsId=BBSMSTR_000000000042", "status": "untested", "lastAttemptAt": null, "lastSuccessAt": null, "note": "정기 작업의 첫 확인 대기"},
-    {"id": "ptp", "name": "포항테크노파크", "url": "https://www.ptp.or.kr/", "status": "untested", "lastAttemptAt": null, "lastSuccessAt": null, "note": "정기 작업의 첫 확인 대기"},
-    {"id": "dgtp", "name": "대구테크노파크", "url": "https://www.dgtp.or.kr/", "status": "untested", "lastAttemptAt": null, "lastSuccessAt": null, "note": "정기 작업의 첫 확인 대기"},
-    {"id": "dgccei", "name": "대구창조경제혁신센터", "url": "https://dgccei.recruiter.co.kr/career/job", "status": "untested", "lastAttemptAt": null, "lastSuccessAt": null, "note": "정기 작업의 첫 확인 대기"},
-    {"id": "dgist", "name": "DGIST", "url": "https://dgist.recruiter.co.kr/", "status": "untested", "lastAttemptAt": null, "lastSuccessAt": null, "note": "정기 작업의 첫 확인 대기"}
+    {
+      "id": "gbtp",
+      "name": "경북테크노파크",
+      "url": "https://www.gbtp.or.kr/user/board.do?bbsId=BBSMSTR_000000000042",
+      "status": "partial",
+      "lastAttemptAt": "2026-10-20T15:23:05+09:00",
+      "lastSuccessAt": null,
+      "note": "공식 채용목록 첫 페이지의 제6차 직원채용 게시를 확인했습니다. 상세 모집단위·실제 근무지·필수자격과 전체 목록 검증은 미완료입니다."
+    },
+    {
+      "id": "ptp",
+      "name": "포항테크노파크",
+      "url": "https://www.ptp.or.kr/",
+      "status": "failed",
+      "lastAttemptAt": "2026-10-20T15:23:05+09:00",
+      "lastSuccessAt": null,
+      "note": "공식 홈페이지가 빈 본문을 반환하여 채용목록을 확인하지 못했습니다. 신규 공고 없음으로 해석하지 않습니다."
+    },
+    {
+      "id": "dgtp",
+      "name": "대구테크노파크",
+      "url": "https://www.dgtp.or.kr/",
+      "status": "failed",
+      "lastAttemptAt": "2026-10-20T15:23:05+09:00",
+      "lastSuccessAt": null,
+      "note": "공식 홈페이지 조회가 시간 초과되어 채용목록을 확인하지 못했습니다. 신규 공고 없음으로 해석하지 않습니다."
+    },
+    {
+      "id": "dgccei",
+      "name": "대구창조경제혁신센터",
+      "url": "https://dgccei.recruiter.co.kr/career/job",
+      "status": "blocked",
+      "lastAttemptAt": "2026-10-20T15:23:05+09:00",
+      "lastSuccessAt": null,
+      "note": "등록된 채용사이트를 조회 도구로 열지 못했습니다. 신규 공고 없음으로 해석하지 않습니다."
+    },
+    {
+      "id": "dgist",
+      "name": "DGIST",
+      "url": "https://dgist.recruiter.co.kr/",
+      "status": "failed",
+      "lastAttemptAt": "2026-10-20T15:23:05+09:00",
+      "lastSuccessAt": null,
+      "note": "공식 채용사이트가 본문 없는 응답을 반환하여 채용목록을 확인하지 못했습니다. 신규 공고 없음으로 해석하지 않습니다."
+    }
   ]
 }
