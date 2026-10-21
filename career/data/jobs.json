@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21T08:21:15+09:00",
+  "generatedAt": "2026-10-21T13:01:17+09:00",
   "collection": {
     "state": "partial",
-    "lastAttemptAt": "2026-10-21T08:21:15+09:00",
+    "lastAttemptAt": "2026-10-21T13:01:17+09:00",
     "lastSuccessAt": null,
     "schedule": "이 채팅에서 30분마다 · 첫 예약 실행 확인, 전체 출처 검증 성공은 미확인",
-    "note": "공식 출처 5곳 재조회: 경북TP 최근 목록 및 제6차 공고 본문의 모집구분·마감시각은 기존 기록과 같습니다. 정규직 모집단위별 직무·실제 근무지·필수자격은 미검증이며 나머지 4곳은 본문 조회 실패가 지속됩니다. 전체 신규 공고 유무는 확인하지 못했습니다. 기존 후보 2건을 보존합니다. 예약 등록·출처 검증·파일 저장·Pages 배포는 각각 구분합니다."
+    "note": "공식 출처 5곳 재조회: 경북TP 최근 목록 및 제6차 공고 본문의 모집구분·마감시각은 기존 기록과 같습니다. 정규직 모집단위별 직무·실제 근무지·필수자격은 미검증이며 나머지 4곳은 본문 조회 실패가 지속됩니다. 전체 신규 공고 유무는 확인하지 못했습니다. 기존 후보 2건 보존. 직전 저장 커밋 c4f9fae534b9c067331b7a47f42708047e3b969a의 Pages 배포 성공 확인, 이번 저장의 배포는 별도 확인 대상입니다."
   },
   "jobs": [
     {
@@ -125,7 +125,7 @@
       "name": "경북테크노파크",
       "url": "https://www.gbtp.or.kr/user/board.do?bbsId=BBSMSTR_000000000042",
       "status": "partial",
-      "lastAttemptAt": "2026-10-21T08:21:15+09:00",
+      "lastAttemptAt": "2026-10-21T13:01:17+09:00",
       "lastSuccessAt": null,
       "note": "공식 채용목록 첫 페이지와 제6차 공고 본문 확인: 정규직 연구직 2명 포함, 10월 22일 18:00 마감. 모집단위별 실제 근무지·필수자격·첨부 검증 미완료."
     },
@@ -134,7 +134,7 @@
       "name": "포항테크노파크",
       "url": "https://www.ptp.or.kr/",
       "status": "failed",
-      "lastAttemptAt": "2026-10-21T08:21:15+09:00",
+      "lastAttemptAt": "2026-10-21T13:01:17+09:00",
       "lastSuccessAt": null,
       "note": "공식 홈페이지가 빈 본문을 반환하여 채용목록을 확인하지 못했습니다. 신규 공고 없음으로 해석하지 않습니다."
     },
@@ -143,7 +143,7 @@
       "name": "대구테크노파크",
       "url": "https://www.dgtp.or.kr/",
       "status": "failed",
-      "lastAttemptAt": "2026-10-21T08:21:15+09:00",
+      "lastAttemptAt": "2026-10-21T13:01:17+09:00",
       "lastSuccessAt": null,
       "note": "공식 홈페이지 조회가 시간 초과되어 채용목록을 확인하지 못했습니다. 신규 공고 없음으로 해석하지 않습니다."
     },
@@ -152,7 +152,7 @@
       "name": "대구창조경제혁신센터",
       "url": "https://dgccei.recruiter.co.kr/career/job",
       "status": "blocked",
-      "lastAttemptAt": "2026-10-21T08:21:15+09:00",
+      "lastAttemptAt": "2026-10-21T13:01:17+09:00",
       "lastSuccessAt": null,
       "note": "등록된 채용사이트를 조회 도구로 열지 못했습니다. 신규 공고 없음으로 해석하지 않습니다."
     },
@@ -161,7 +161,7 @@
       "name": "DGIST",
       "url": "https://dgist.recruiter.co.kr/",
       "status": "failed",
-      "lastAttemptAt": "2026-10-21T08:21:15+09:00",
+      "lastAttemptAt": "2026-10-21T13:01:17+09:00",
       "lastSuccessAt": null,
       "note": "공식 채용사이트가 본문 없는 응답을 반환하여 채용목록을 확인하지 못했습니다. 신규 공고 없음으로 해석하지 않습니다."
     }
